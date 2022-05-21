@@ -1,12 +1,12 @@
 # learningPhase
 SSH (Secure Shell)
-
+<br>
 
 
 Overview
 - Network protocol for creating a secure connection to a remote machine over a network.
 - Works on TCP over port 22
-
+<br>
 
 
 Installation
@@ -21,7 +21,7 @@ Installation
 - Step 3: Open SSH port 22 to allow incoming traffic
     cmd$ sudo firewall-cmd --zone=public --permanent --add-service=ssh
     cmd$ sudo firewall-cmd --reload
-
+<br>
 
 
 Passwordless SSH connection setup
