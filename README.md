@@ -1,15 +1,14 @@
-# learningPhase
-SSH (Secure Shell)
+# SSH (Secure Shell)
 <br>
 
 
-Overview
+## Overview
 - Network protocol for creating a secure connection to a remote machine over a network.
 - Works on TCP over port 22
 <br>
 
 
-Installation
+## Installation
 - Step 1: Install package
     For RHEL8:  cmd$ sudo dnf install openssh-server -y
     For Ubuntu: cmd$ sudo apt install openssh-server
@@ -24,7 +23,7 @@ Installation
 <br>
 
 
-Passwordless SSH connection setup
+## Passwordless SSH connection setup
 - Step 1: Check for existing key pair. Look for id\_rsa.pub, id\ecdsa.pub, id\_ed25519.pub  
     cmd$ ls -al ~/.ssh
   Look for id\_rsa.pub, id\ecdsa.pub, id\_ed25519.pub
